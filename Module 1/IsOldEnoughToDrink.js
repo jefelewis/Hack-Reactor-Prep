@@ -11,14 +11,14 @@ true
 
 
 Starter Code:
-function isOldEnoughToDrink(age) {
+function isOldEnoughToDrink(age){
 	// your code here
 }
 */
 
 Answer (Code):
-function isOldEnoughToDrink(age) {
-	if(age > 0 && age < 21) {
+function isOldEnoughToDrink(age){
+	if(age > 0 && age < 21){
 		return false;
 	}
 	else {
