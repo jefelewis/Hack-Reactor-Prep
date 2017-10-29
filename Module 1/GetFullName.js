@@ -17,7 +17,7 @@ function getFullName(firstName, lastName){
 }
 */
 
-Answer:
+// Answer:
 function getFullName(firstName, lastName){
 	return firstName + " " +  lastName;
 }
