@@ -21,7 +21,6 @@ function checkAge(name, age){
 }
 */
 
-
 // Answer:
 function checkAge(name, age) {
 	if(age >= 21){
