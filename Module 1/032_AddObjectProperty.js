@@ -14,7 +14,7 @@ Output:
 
 
 Starter Code:
-function addObjectProperty(obj1, key, obj2) {
+function addObjectProperty(obj1, key, obj2){
 	// your code here
 }
 */
@@ -23,7 +23,7 @@ function addObjectProperty(obj1, key, obj2) {
 var person1 = {name: "Joe Blow", role: "schlub"};
 var person2 = {name: "Mr. Burns", role: "supervisor"};
 
-function addObjectProperty(obj1, key, obj2) {
+function addObjectProperty(obj1, key, obj2){
 	obj1[key] = obj2;
 	return obj1;
 }
