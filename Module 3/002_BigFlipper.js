@@ -27,13 +27,9 @@ Write those notes here in this Repl.it problem.
 /*
 Starter Code:
 Problem description (see instructions for how to de-obfuscate).
-
 Syvc rirel puhax bs a punenpgref va n fgevat, jurer a vf nal cbfvgvir vagrtre terngre guna 1.
-
 Abgr gung guvf vf vagragvbanyyl irel fvzvyne gb gur cerivbhf ceboyrz.
-
 Cyrnfr sbphf ba trggvat n jbexvat fbyhgvba jvgu gur gbbyf lbh xabj jryy.
-
 Cenpgvpr gur vagrenpgvir/pbyynobengvir vagreivrj fglyr gung'f qrfpevorq va gur qbphzragngvba.
 
 Rknzcyr:
