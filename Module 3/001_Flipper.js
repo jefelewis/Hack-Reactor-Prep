@@ -66,3 +66,6 @@ function flipPairs(input){
 }
  
 flipPairs("check out how interesting this problem is, it's insanely interesting!");
+
+// Output
+"hcce kuo toh wnietertsni ghtsip orlbmei ,si \'t sniasenyli tnreseitgnundefined!"
