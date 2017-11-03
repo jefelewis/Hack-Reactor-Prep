@@ -53,16 +53,16 @@ console.log(output); // --> hcce kuo toh wnietertsni ghtsip orlbmei ,si't sniase
 // flip the first character to be the second character --> return output
 
 function flipPairs(input){
-  // Create Output String
+	// Create Output String
 	var output = "";
-  // Iterate through the string 
-	for (var i = 0; i < input.length; i += 2){
-    // Flip the second character to be the first character
-	   output += input[i + 1];
-    // Flip the first character to be the second character
-    output += input[i]; 
+	// Iterate through the string 
+	for(var i = 0; i < input.length; i += 2){
+		// Flip the second character to be the first character
+		output += input[i + 1];
+		// Flip the first character to be the second character
+		output += input[i];
 	}
-  // Return Output
+	// Return Output
 	return output;
 }
  
