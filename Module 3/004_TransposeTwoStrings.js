@@ -51,9 +51,9 @@ OD
 */
 
 // STEPS TO SOLVE
-// Input: String
+// Input: Array
 // Output: String
-// Process: Take string input --> create an output string --> 
+// Process: Take array input --> seprate the string at index 0 and index 1 --> Console.log array index 0, string index 0 + array index 1, string index 0 
 
 function transposeTwoStrings(input){
   // Your code here
