@@ -47,3 +47,6 @@ function findPairForSum(integers, target){
 }
 
 findPairForSum([4, 34, 1, 12, 2, 5], 9);
+
+// Output
+[4, 5]
