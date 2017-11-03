@@ -45,6 +45,12 @@ detectOutlierValue("2 4 7 8 10"); // => 3 - Third number is odd, while the rest 
 detectOutlierValue("1 10 1 1");  //=> 2 - Second number is even, while the rest of the numbers are odd
 */
 
+// STEPS TO SOLVE
+// Input: String
+// Output: String
+// Process: Take string input --> Split the string by spaces --> filter array into odd and even arrays --> if even array is larger 
+// than odd array, odd array is the outlier and visa versa
+
 function detectOutlierValue(input){
   // Your code here
 }
