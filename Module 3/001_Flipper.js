@@ -48,8 +48,8 @@ console.log(output); // --> hcce kuo toh wnietertsni ghtsip orlbmei ,si't sniase
 // STEPS TO SOLVE
 // Input: String
 // Output: String
-// Process: Take string input --> split up each character of the string -->
-// shift the alphabet 13 characters --> Apply function --> join string --> return modified string
+// Process: Take string input --> create an output string --> flip the second character to be the first character --> 
+// flip the first character to be the second character --> return output
 
 function flipPairs(input){
   // Create Output String
