@@ -47,14 +47,18 @@ console.log(output); // --> hcce kuo toh wnietertsni ghtsip orlbmei ,si't sniase
 
 // STEPS TO SOLVE
 // Input: String
-// Output: String, but is offset by ROT13 (13 Characters)
-// Process: Assign input to a variable --> 
+// Output: String
+// Process: Take string input --> split up each character of the string -->
+// shift the alphabet 13 characters --> Apply function --> join string --> return modified string
 
 
 function flipPairs(input){
-  // Your code here
+  // Split up each character of the string (Puts each splitted character in an array)
+  var splitString = input.split("");
+  // Iterate through the splitted string
+  for(var i = 0; i < splitString.length; i++){
+    //
+  }
 }
 
 flipPairs("check out how interesting this problem is, it's insanely interesting!");
-
-// Output
