@@ -52,8 +52,25 @@ detectOutlierValue("1 10 1 1");  //=> 2 - Second number is even, while the rest 
 // than odd array, odd array is the outlier and visa versa
 
 function detectOutlierValue(input){
-  // Your code here
+  // Split the string by spaces
+  var splitString = input.split(" ");
+  
+  // Even Numbers Array
+  var evenNumbers = splitString.filter(function(number){
+    return number % 2 === 0;
+  });
+  // Odd Numbers Array
+  var oddNumbers = splitString.filter(function(number){
+    return number % 2 !== 0;
+  });
+
+  // Compare the Even and Odd Arrays
+  if(evenNumbers.length > oddNumbers.length){
+    return oddNumbers;
+  }
+  else{
+    return evenNumbers
+  }
 }
 
 detectOutlierValue("2 4 7 8 10");
-detectOutlierValue("1 10 1 1");
