@@ -51,14 +51,18 @@ console.log(output); // --> hcce kuo toh wnietertsni ghtsip orlbmei ,si't sniase
 // Process: Take string input --> split up each character of the string -->
 // shift the alphabet 13 characters --> Apply function --> join string --> return modified string
 
-
 function flipPairs(input){
-  // Split up each character of the string (Puts each splitted character in an array)
-  var splitString = input.split("");
-  // Iterate through the splitted string
-  for(var i = 0; i < splitString.length; i++){
-    //
-  }
+  // Create Output String
+	var output = "";
+  // Iterate through the string 
+	for (var i = 0; i < input.length; i += 2){
+    // Flip the second character to be the first character
+		output = output + input[i + 1];
+    // Flip the first character to be the second character
+		output = output + input[i]; 
+	}
+  // Return Output
+	return output;
 }
-
+ 
 flipPairs("check out how interesting this problem is, it's insanely interesting!");
