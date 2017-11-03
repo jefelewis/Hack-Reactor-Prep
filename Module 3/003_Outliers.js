@@ -59,6 +59,7 @@ function detectOutlierValue(input){
   var evenNumbers = splitString.filter(function(number){
     return number % 2 === 0;
   });
+  
   // Odd Numbers Array
   var oddNumbers = splitString.filter(function(number){
     return number % 2 !== 0;
