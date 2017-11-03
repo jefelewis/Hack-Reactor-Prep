@@ -55,13 +55,13 @@ console.log(output); // --> hcce kuo toh wnietertsni ghtsip orlbmei ,si't sniase
 function flipPairs(input){
 	// Create Output String
 	var output = "";
-  // Iterate through the string every 2nd character
+	// Iterate through the string every 2nd character
 	for(var i = 0; i < input.length; i += 2){
-    // Iterate through the string backwards, starting at 0. (2 - 1) is to convert to the index
-    for(var j = 2 - 1; j >= 0; j--){
-      // Assign the first character + the second character to the output
-      output += input[i+j]
-    }
+		// Iterate through the string backwards, starting at 0. (2 - 1) is to convert to the index
+		for(var j = 2 - 1; j >= 0; j--){
+			// Assign the first character + the second character to the output
+			output += input[i+j]
+		}
 	}
 	// Return Output
 	return output;
