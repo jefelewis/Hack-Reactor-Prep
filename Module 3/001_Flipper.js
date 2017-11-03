@@ -21,10 +21,11 @@ Note: Since you are working by yourself, you have to mimic the live experience b
 4) Review your own work and record your notes here:
 Watch your video and observe what you did well and what you want to improve for next time.
 Write those notes here in this Repl.it problem.
-
-Starter Code:
 */
+
+
 /*
+Starter Code:
 Problem description (see instructions for how to de-obfuscate).
 
 Syvc rirel cnve bs punenpgref va n fgevat.
