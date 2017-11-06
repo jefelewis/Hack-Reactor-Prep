@@ -10,8 +10,12 @@ If you double the string, you'll be to trivially find another string inside it u
 
 Doubled string: "hello worldhello world"
 Search w/in it: "       orldhello w    "
+*/
 
-
+/*
+Input: 2 strings
+Output: Boolean
+Process: Create a large string with string 1 copied 3 times (2 might not work for all instances) --> Use the .includes() prototype to find string 2 in the large string --> Output true if it includes it. Otherwise, output false
 */
 
 function isRotated(str1, str2) {
