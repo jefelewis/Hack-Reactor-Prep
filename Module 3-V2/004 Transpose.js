@@ -19,3 +19,5 @@ function transposeTwoStrings(arr){
   // Your code here
 
 }
+
+ transposeTwoStrings(["Hello","World"]);
