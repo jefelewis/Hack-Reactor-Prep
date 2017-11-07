@@ -1,5 +1,5 @@
 /*
-Binary search is a technique for very rapidly searching a sorted collection by cutting the search space in half at every pass.
+"Binary Search" is a technique for very rapidly searching a sorted collection by cutting the search space in half at every pass.
 
 Given a sorted array, such as this:
 [1, 3, 16, 22, 31, 33, 34]
@@ -42,4 +42,6 @@ return oddOrEven;
 }
 
 
-Search([1,2,3,4,5,6,7,8,9,10]);
+Search([1,2,3,4,5,6,7,8,9,10], 8);
+
+// Output --> 
