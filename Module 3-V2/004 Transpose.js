@@ -16,8 +16,20 @@ o d
 // Process: Iterate through the strings --> return array 
 
 function transposeTwoStrings(arr){
-  // Your code here
-
+  // Create results array
+  var results = [];
+  // Find the max length
+  var maxLength = arr[0].length;
+  if(arr[1].length > arr[0].length){
+    maxLength = arr[1].length;
+  }
+  // Iterate through the array
+  for(var i = 0; i < maxLength; i++){
+    // Push values from both strings with consideration for spaces " " if one string is shorter than the other
+    results.push((arr[0][i] || " ") + (arr[1][i] ||  " "))
+  }
+  // Return output
+  return results.join("\n");
 }
 
 transposeTwoStrings(["Hello","World"]);
