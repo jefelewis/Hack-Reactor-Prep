@@ -13,7 +13,7 @@ o d
 
 // Input: Array with two strings
 // Output: String
-// Process: Iterate through the strings --> return array 
+// Process: Create output array --> find the max length in the instance one word is longer than the other --> Iterate through the strings --> Assign characters to output array and add spaces " " if one string is longer than the other string --> Return output 
 
 function transposeTwoStrings(arr){
   // Create results array
