@@ -20,4 +20,4 @@ function transposeTwoStrings(arr){
 
 }
 
- transposeTwoStrings(["Hello","World"]);
+transposeTwoStrings(["Hello","World"]);
