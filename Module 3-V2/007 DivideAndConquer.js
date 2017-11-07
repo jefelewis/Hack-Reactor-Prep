@@ -1,7 +1,7 @@
 /*
 "Binary Search" is a technique for very rapidly searching a sorted collection by cutting the search space in half at every pass.
 
-Given a sorted array, such as this:
+Given a SORTED array, such as this:
 [1, 3, 16, 22, 31, 33, 34]
 
 You can search for the value 31, as follows:
