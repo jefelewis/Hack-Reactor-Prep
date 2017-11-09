@@ -29,19 +29,33 @@ Process: Take the array length --> Divide the length by 2 --> If the remainder i
 
 
 function search(array, value){
-  // Your code here
-  return array / 2
-  // Find if value is odd or even
-  if(value % 2 !=== 0){
-    var oddOrEven = array / 2;
+  // Create variable for start index
+  var startIndex = 0;
+  // Create variable for end index
+  var endIndex = array.length - 1;
+
+  //
+  while(startIndex <= endIndex){
+    // Crate a variable for the mid index
+    var midIndex = Math.floor((startIndex + endIndex) / 2);
+    // If midpoint equals the value, return the value/midpoint
+    if(array[midIndex] === value){
+      return midIndex;
+    }
+    // Search to the left
+    else if(array[midIndex] > value){
+      endIndex = midIndex - 1;
+    }
+
+    // Search to the right
+    else {
+      startIndex = midIndex + 1;
+    }
   }
-  else{
-    var addOrEven = array
-  }
-return oddOrEven;
+  // Return null if value is not found
+  return null;
 }
 
+search([1, 3, 16, 22, 31, 33, 34], 31);
 
-search([1,2,3,4,5,6,7,8,9,10], 8);
-
-// Output --> 
+// Output --> 4
