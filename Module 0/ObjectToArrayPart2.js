@@ -28,3 +28,5 @@ return newArray; 
 } 
 
 listAllValues(object);
+
+// Output --> ["Krysten", 33, false]
