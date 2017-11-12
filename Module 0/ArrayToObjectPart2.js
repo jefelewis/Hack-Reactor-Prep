@@ -34,3 +34,5 @@ function fromListToObject(arr) {
 }
 
 fromListToObject(array);
+
+// Output --> {make: "Ford", model: "Mustang", year: 1964}
