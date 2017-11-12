@@ -28,3 +28,5 @@ function transformEmployeeData(arr) {
 }
 
 transformEmployeeData(array);
+
+// Output --> [{firstName: "Joe", lastName: "Blow", age: 42, role: "clerk"}, {firstName: "Mary", lastName: "Jenkins", age: 36, role: "manager"}]
