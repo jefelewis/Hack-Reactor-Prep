@@ -31,3 +31,5 @@ function convertObjectToList(obj) {
 }
 
 convertObjectToList(object);
+
+// Output --> [["name", "Holly"], ["age", 35 ], ["role", "producer"]]
