@@ -26,3 +26,5 @@ function getAllKeys(obj) {
 }
 
 getAllKeys(object);
+
+// Output --> ["name", "age", "hasPets"]
