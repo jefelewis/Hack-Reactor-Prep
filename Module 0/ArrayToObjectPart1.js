@@ -28,3 +28,5 @@ function transformFirstAndLast(arr) {
 }
 
 transformFirstAndLast(array);
+
+// Output --> {Queen: "Beyonce"}
